@@ -1,0 +1,9 @@
+<!-- parent component -->
+<h2>Parent</h2>
+
+<!-- pass message to component2 - child1 -->
+<app-component2 [parentData]="message"></app-component2>
+
+<!-- get message from component3 - child2 -->
+<app-component3 (childEvent)= "message=$event"></app-component3>
+
