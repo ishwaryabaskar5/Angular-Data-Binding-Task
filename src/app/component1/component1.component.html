@@ -1,0 +1,7 @@
+<h2>Component 1</h2>
+
+<!-- textfield with two way binding -->
+<input type="text" #nameField [(ngModel)]="message" />
+
+<!-- component selector tag with data-->
+<app-component2 [parentData]="nameField.value"></app-component2>
