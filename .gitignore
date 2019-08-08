@@ -54,21 +54,22 @@ local.properties
 # Visual Studio Code
 ######################
 .vscode/
-*/angular.json
-*/browserslist
-*/e2e
-*/karma.conf.json/node_modules
-*/package.json
-*/package-lock.json
-*/README.md
-*/tsconfig.app.json
-*/tsconfig.json
-*/tsconfig.spec.json
-*/tslint.json
+angular.json
+.editorconfig
+browserslist
+e2e
+karma.conf.json/node_modules
+package.json
+package-lock.json
+tsconfig.app.json
+tsconfig.json
+tsconfig.spec.json
+tslint.json
 */src/environments
 */src/favicon.ico
 */src/polyfills.ts
 */src/test.ts
+karma.conf.js
 ######################
 # Maven
 ######################
@@ -131,4 +132,3 @@ Desktop.ini
 # ESLint
 ######################
 .eslintcache
-
